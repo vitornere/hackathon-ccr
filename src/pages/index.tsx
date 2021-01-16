@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import NavBar from '../components/NavBar';
 import { Container } from '../styles';
 
 export default function Home() {
@@ -10,12 +11,10 @@ export default function Home() {
       </Head>
 
       <main>
-        <h1>Welcome to Mentorando</h1>
+        <NavBar />
       </main>
 
-      <footer>
-        <a href="#">Powered by Time 64</a>
-      </footer>
+      <footer>@2021 Powered by Team 64</footer>
     </Container>
   );
 }
