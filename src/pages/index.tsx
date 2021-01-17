@@ -2,6 +2,7 @@ import { InferGetStaticPropsType } from 'next';
 import Head from 'next/head';
 import AboutSection from '../components/AboutSection';
 import HomeSection from '../components/HomeSection';
+import HowSection from '../components/HowSection';
 import NavBar from '../components/NavBar';
 import ProjectSection from '../components/ProjectsSection';
 import { Container } from '../styles';
@@ -22,6 +23,7 @@ export default function Home({
         <HomeSection />
         <AboutSection />
         <ProjectSection projects={projects} />
+        <HowSection />
       </main>
 
       <footer>@2021 Powered by Team 64</footer>

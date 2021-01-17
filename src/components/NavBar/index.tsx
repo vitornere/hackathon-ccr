@@ -22,7 +22,7 @@ export default function NavBar() {
           <a href="#projects">Vitrine de projetos</a>
         </li>
         <li>
-          <a href="#participate">Como participar</a>
+          <a href="#how">Como funciona</a>
         </li>
       </ul>
       <button type="button" onClick={() => router.push('/login')}>
