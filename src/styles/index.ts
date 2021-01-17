@@ -5,15 +5,14 @@ export const Container = styled.div`
   flex-direction: column;
 
   main {
+    margin: 0 5em;
   }
 
   footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    position: fixed;
-    height: 50px;
+    height: 5em;
     width: 100%;
-    bottom: 0;
   }
 `;

@@ -12,9 +12,6 @@ const GlobalStyle = createGlobalStyle`
   body {
     background: #FFFFFF;
     -webkit-font-smoothing: antialiased;
-
-    // Footer
-    margin-bottom: 50px;
   }
 
   body, input, button {

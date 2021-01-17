@@ -8,7 +8,9 @@ export default function NavBar() {
 
   return (
     <Container>
-      <img src={LogoImg} alt="Mentorando Logo" />
+      <a href="#home">
+        <img src={LogoImg} alt="Mentorando Logo" />
+      </a>
       <ul>
         <li>
           <a href="#home">Home</a>
