@@ -8,7 +8,7 @@ export default function AboutSection() {
       <div>
         <h1>SOBRE O PROJETO</h1>
         <span>
-          Criamos a Mentorama para unir universitários, jovens de escolas
+          Criamos a Mentorando para unir universitários, jovens de escolas
           públicas e empresas, para desenvolver novos projetos e crescerem
           juntos
         </span>

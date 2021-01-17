@@ -7,7 +7,7 @@ export default function HomeSection() {
       <article>
         <h1>Transmitir conhecimento gera oportunidades</h1>
         <span>
-          Criamos a Mentorama para unir universitários, jovens de escolas
+          Criamos a Mentorando para unir universitários, jovens de escolas
           públicas e empresas, para desenvolver novos projetos e crescerem
           juntos
         </span>
