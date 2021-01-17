@@ -7,8 +7,8 @@ export const Container = styled.div`
   main {
     margin: 0 5em;
 
-    @media (max-width: 700) {
-      margin: 0;
+    @media (max-width: 900px) {
+      margin: 0 1em;
     }
   }
 
@@ -32,6 +32,11 @@ export const Container = styled.div`
       font-family: sf pro text, -apple-system, BlinkMacSystemFont, Roboto,
         segoe ui, Helvetica, Arial, sans-serif, apple color emoji,
         segoe ui emoji, segoe ui symbol;
+    }
+
+    @media (max-width: 900px) {
+      flex-flow: wrap;
+      padding: 1em 0;
     }
   }
 `;

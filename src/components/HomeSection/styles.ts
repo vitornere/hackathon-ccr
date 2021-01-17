@@ -78,6 +78,9 @@ export const Container = styled.section`
       span {
         text-align: center;
       }
+      button {
+        width: 100%;
+      }
     }
 
     div {

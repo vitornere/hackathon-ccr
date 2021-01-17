@@ -5,6 +5,10 @@ export const Container = styled.div`
   justify-content: space-between;
   align-items: center;
   margin-top: 2em;
+
+  @media (max-width: 900px) {
+    align-items: flex-start;
+  }
 `;
 
 export const Burger = styled.button`
