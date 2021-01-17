@@ -1,11 +1,12 @@
 import { useRouter } from 'next/router';
+import RightArrowImg from '../../../../assets/images/right-arrow.svg';
 import { Container } from './styles';
-import RightArrowImg from '../../assets/images/right-arrow.svg';
 
-export default function DesktopMenu() {
+export default function MenuItems() {
   const router = useRouter();
+  console.log(router.pathname);
   return (
-    <Container>
+    <Container className="menu-items">
       <ul>
         <li>
           <a href="#home">Home</a>

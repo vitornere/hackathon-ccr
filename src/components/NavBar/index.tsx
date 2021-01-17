@@ -1,7 +1,7 @@
 import { Container } from './styles';
 import LogoImg from '../../assets/images/logo.svg';
-import DesktopMenu from '../DesktopMenu';
-import MobileMenu from '../MobileMenu';
+import DesktopMenu from './components/DesktopMenu';
+import MobileMenu from './components/MobileMenu';
 
 export default function NavBar() {
   return (
