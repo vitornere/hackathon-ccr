@@ -31,4 +31,29 @@ export const Container = styled.section`
       color: #000000;
     }
   }
+
+  @media (max-width: 900px) {
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 2em;
+
+    img {
+      width: 80%;
+    }
+
+    div {
+      padding-top: 1em;
+      justify-content: center;
+      align-items: center;
+
+      h1 {
+        margin-bottom: 1em;
+      }
+
+      h1,
+      span {
+        text-align: center;
+      }
+    }
+  }
 `;

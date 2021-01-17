@@ -98,4 +98,21 @@ export const Article = styled.article<ArticleProps>`
       background: rgba(156, 105, 226, 0.1);
     }
   }
+
+  @media (max-width: 900px) {
+    .logo {
+      display: none;
+    }
+
+    .content {
+      margin: 0;
+      padding: 2em 1em 0 2em;
+      align-items: center;
+      justify-content: center;
+
+      span {
+        text-align: center;
+      }
+    }
+  }
 `;

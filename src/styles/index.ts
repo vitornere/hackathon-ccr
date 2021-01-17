@@ -6,6 +6,10 @@ export const Container = styled.div`
 
   main {
     margin: 0 5em;
+
+    @media (max-width: 700) {
+      margin: 0;
+    }
   }
 
   footer {

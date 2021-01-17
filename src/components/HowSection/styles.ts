@@ -71,4 +71,26 @@ export const Container = styled.section`
       }
     }
   }
+
+  @media (max-width: 900px) {
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+
+    .title {
+      width: 100%;
+
+      img {
+        width: 70%;
+      }
+    }
+
+    .list {
+      text-align: justify;
+
+      h2 {
+        text-align: center;
+      }
+    }
+  }
 `;

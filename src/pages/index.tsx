@@ -19,6 +19,16 @@ export default function Home({
       <Head>
         <title>Mentorando</title>
         <link rel="icon" href="/favicon.ico" />
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+        <meta
+          name="description"
+          content="Criamos a Mentorando para unir universitários, jovens de escolas públicas e empresas, para desenvolver novos projetos e crescerem juntos"
+        />
+        <meta httpEquiv="Content-Type" content="text/html;charset=UTF-8" />
+        <meta
+          name="keywords"
+          content="Projetos Sociais, Horas Complementares, Escola Pública, Universitários, Empresas"
+        />
       </Head>
 
       <main>

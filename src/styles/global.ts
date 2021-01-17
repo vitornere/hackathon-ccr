@@ -7,11 +7,17 @@ const GlobalStyle = createGlobalStyle`
     box-sizing: border-box;
     outline: 0;
     color: #212353;
+
+    @media (max-width: 900) {
+      max-width: 100vw;
+    }
   }
 
   body {
     background: #FFFFFF;
     -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    height: 100vh;
   }
 
   body, input, button {

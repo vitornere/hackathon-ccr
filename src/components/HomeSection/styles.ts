@@ -62,4 +62,26 @@ export const Container = styled.section`
       height: auto;
     }
   }
+
+  @media (max-width: 900px) {
+    margin-top: 2em;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+
+    article {
+      width: 100%;
+      justify-content: center;
+      align-items: center;
+
+      h1,
+      span {
+        text-align: center;
+      }
+    }
+
+    div {
+      width: 80%;
+    }
+  }
 `;
