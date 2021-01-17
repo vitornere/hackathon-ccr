@@ -6,7 +6,6 @@ import HowSection from '../components/HowSection';
 import NavBar from '../components/NavBar';
 import ProjectSection from '../components/ProjectsSection';
 import { Container } from '../styles';
-import { Project } from './api/projects';
 import logoImg from '../assets/images/logo.svg';
 import instagramImg from '../assets/images/instagram.svg';
 import linkedinImg from '../assets/images/linkedin.svg';
@@ -43,9 +42,38 @@ export default function Home({
   );
 }
 
+export interface Project {
+  logo: string;
+  title: string;
+  field: string;
+  solvedProblem: string;
+  mentors: string[];
+  mentored: string[];
+  link: string;
+}
+
 export const getStaticProps = async () => {
-  const res = await fetch('http://localhost:3000/api/projects');
-  const projects: Project[] = await res.json();
+  const projects: Project[] = [
+    {
+      logo: 'https://i.imgur.com/9pxbWwU.png',
+      title:
+        'DecoreUX — Design de Serviços na Arquitetura e Decoração de Ambientes',
+      field: 'Arquitetura',
+      solvedProblem: 'Propor nova arquitetura para a Universidade do ABC',
+      mentors: ['Matias da Silva Gomes - Universidade Federal do ABC'],
+      mentored: ['EE PS, Generoso Alves de Siqueira'],
+      link: '/projects/0',
+    },
+    {
+      logo: 'https://i.imgur.com/a7kmUdW.png',
+      title: 'Incenticida do Bem — Um incenticida não tóxico',
+      field: 'Quimica',
+      solvedProblem: 'Desenvolver um novo incenticida não tóxico',
+      mentors: ['Laura Freitas - Universidade Federal do CBA'],
+      mentored: ['Ana Clara, Arthur Lima'],
+      link: '/projects/1',
+    },
+  ];
 
   return {
     props: {

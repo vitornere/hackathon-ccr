@@ -1,6 +1,6 @@
 import { Container, Article } from './styles';
 import RightArrowImg from '../../assets/images/right-arrow.svg';
-import { Project } from '../../pages/api/projects';
+import { Project } from '../../pages';
 
 interface Props {
   projects: Project[];
