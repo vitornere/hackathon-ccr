@@ -7,6 +7,10 @@ import NavBar from '../components/NavBar';
 import ProjectSection from '../components/ProjectsSection';
 import { Container } from '../styles';
 import { Project } from './api/projects';
+import logoImg from '../assets/images/logo.svg';
+import instagramImg from '../assets/images/instagram.svg';
+import linkedinImg from '../assets/images/linkedin.svg';
+import twitterImg from '../assets/images/twitter.svg';
 
 export default function Home({
   projects,
@@ -26,7 +30,15 @@ export default function Home({
         <HowSection />
       </main>
 
-      <footer>@2021 Powered by Team 64</footer>
+      <footer>
+        <img src={logoImg} alt="Logo" />
+        <div>
+          <img src={instagramImg} alt="Instagram" />
+          <img src={linkedinImg} alt="LinkedIn" />
+          <img src={twitterImg} alt="Twitter" />
+        </div>
+        <span>© 2021 Mentorando, Inc.</span>
+      </footer>
     </Container>
   );
 }

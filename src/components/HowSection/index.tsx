@@ -3,7 +3,7 @@ import WorksImg from '../../assets/images/works.svg';
 
 export default function HowSection() {
   return (
-    <Container>
+    <Container id="how">
       <div className="title">
         <h1>COMO FUNCIONA?</h1>
         <img src={WorksImg} alt="Works" />
