@@ -27,7 +27,11 @@
 
 Criamos a Mentorando para unir universitários, jovens de escolas públicas e empresas, para desenvolver novos projetos e crescerem juntos.
 
-### Tecnologias Usadas
+### Layout
+
+Criado no Figma - <a href="https://www.figma.com/file/Jgeaf0DWTGhkZfUrxPMLEU/Plataforma-Mentorama?node-id=0%3A1" target="_blank">CLIQUE AQUI</a>
+
+### Tecnologias Utilizadas
 
 O projeto foi feito com as seguintes tecnologias:
 
