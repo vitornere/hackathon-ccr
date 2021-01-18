@@ -1,30 +1,84 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h1 align="center" style="margin-bottom: 20px;">
+  <img alt="Mentorando" src="./src/assets/images/logo.svg" width="auto" heigth="auto"/>
+</h1>
 
-## Getting Started
+<p align="center">
+	<a href="#" rel="noopener noreferrer">
+    <img alt="Build" src="https://github.com/vitornere/mentorando/workflows/Build/badge.svg?branch=master">
+  </a>
+	<a href="https://www.linkedin.com/in/vitor-nere/" target="_blank" rel="noopener noreferrer">
+    <img alt="Made by" src="https://img.shields.io/badge/made%20by-Vitor%20Nere-blue">
+  </a>
+  <a href="http://makeapullrequest.com">
+    <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" alt="PRs Welcome">
+  </a>
+</p>
 
-First, run the development server:
+<img alt="Mockup" src="./assets/background.jpg">
 
-```bash
-npm run dev
-# or
-yarn dev
+<p align="center" >
+  <a href="#tecnologias-usadas"> Tecnologias Usadas</a> |
+  <a href="#executando-o-projeto"> Executando o Projeto </a> |
+  <a href="#deploy-da-aplicação"> Deploy da Aplicação</a> |
+  <a href="#como-contribuir"> Como Contribuir?</a> |
+</p>
+
+## O projeto
+
+Criamos a Mentorando para unir universitários, jovens de escolas públicas e empresas, para desenvolver novos projetos e crescerem juntos.
+
+### Tecnologias Usadas
+
+O projeto foi feito com as seguintes tecnologias:
+
+- [NodeJS](https://nodejs.org/en/)
+- [Typescript](https://www.typescriptlang.org/)
+- [React](https://pt-br.reactjs.org/)
+- [NextJs](https://nextjs.org/)
+- [PWA](https://web.dev/progressive-web-apps/)
+...
+
+## Executando o Projeto
+
+
+Para clonar e executar esse projeto, você precisará do [Git](https://git-scm.com), [Node.js](https://nodejs.org/en/) + [Yarn](https://yarnpkg.com/) | [NPM](https://www.npmjs.com/) instalados em seu computador.
+
+No terminal:
+### Clonando o projeto
+```sh
+$ git clone https://github.com/vitornere/mentorando.git
+$ cd mentorando
+```
+#### Executando em desenvolvimento
+```sh
+$ yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+#### Build produção
+```sh
+yarn build
+```
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+#### Executando produção
+```sh
+yarn start
+```
 
-## Learn More
+## Como Contribuir?
+**Faça um fork deste repositório**
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+# Clone o seu fork
+$ git clone url-do-seu-fork && cd mentorando
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+# Crie uma branch com sua feature ou correção de bugs
+$ git checkout -b minha-branch
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+# Faça o commit das suas alterações
+$ git commit -m 'feature/bugfix: minhas alterações'
 
-## Deploy on Vercel
+# Faça o push para a sua branch
+$ git push origin minha-branch
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Depois que o merge da sua pull request for feito, você pode deletar a sua branch.
