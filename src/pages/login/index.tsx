@@ -1,7 +1,10 @@
+import { useRouter } from 'next/router';
 import Input from '../../components/Input';
 import { Container } from '../../styles/login';
 
 export default function Login() {
+  const router = useRouter();
+
   return (
     <Container>
       <form
@@ -35,7 +38,12 @@ export default function Login() {
         </fieldset>
       </form>
       <div className="signup-buttoms">
-        <button type="button">cadastrar universtários</button>
+        <button
+          type="button"
+          onClick={() => router.push('/register/university')}
+        >
+          cadastrar universtários
+        </button>
         <button type="button">cadastrar escolas</button>
         <button type="button">cadastrar empresa</button>
       </div>

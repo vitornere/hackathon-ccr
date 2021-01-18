@@ -1,5 +1,6 @@
 import { useRouter } from 'next/router';
 import RightArrowImg from '../../../../assets/images/right-arrow.svg';
+import LeftArrowImg from '../../../../assets/images/left-arrow.svg';
 import { Container } from './styles';
 
 export default function MenuItems() {
@@ -27,10 +28,14 @@ export default function MenuItems() {
             <img src={RightArrowImg} alt="Login Right Arrow" />
           </button>
         </>
+      ) : router.pathname === '/register/success' ? (
+        <button type="button" onClick={() => router.push('/')}>
+          <span>Home</span>
+        </button>
       ) : (
         <button type="button" onClick={() => router.back()}>
+          <img src={LeftArrowImg} alt="Login Right Arrow" />
           <span>Voltar</span>
-          <img src={RightArrowImg} alt="Login Right Arrow" />
         </button>
       )}
     </Container>
