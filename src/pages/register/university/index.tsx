@@ -89,7 +89,7 @@ export default function RegisterUniversity() {
         </fieldset>
 
         <fieldset className="third">
-          <h2>3 - Apresente o ptojeto</h2>
+          <h2>3 - Apresente o projeto</h2>
           <Input
             id="NOME DO PROJETO"
             name="NOME DO PROJETO"
