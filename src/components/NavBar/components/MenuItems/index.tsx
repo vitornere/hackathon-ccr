@@ -20,7 +20,7 @@ export default function MenuItems() {
               <a href="#projects">Vitrine de projetos</a>
             </li>
             <li>
-              <a href="#how">Como funciona</a>
+              <a href="#how">Como funciona?</a>
             </li>
           </ul>
           <button type="button" onClick={() => router.push('/login')}>

@@ -12,39 +12,54 @@ export default function HowSection() {
         <div className="list-item">
           <h2>1 - Mentores = Universitários</h2>
           <div className="description">
-            Alunos de Universidade, junto com um orientador (professor) idealiza
-            um projeto e apresenta para escolas públicas
+            Alunos de universidades, junto com um professor orientador,
+            idealizam um projeto e apresentam para as escolas públicas.
           </div>
           <div className="benefits">
             VANTAGENS: Gerir um projeto como mentor, conseguir horas
-            complementares da faculdade e ter seu perfil profissional disponível
-            para as empresas. Pode ser contratado como treinee, JR ou estagiário
+            complementares da faculdade, ganhar dinheiro com os projetos
+            aprovados e ter seu perfil profissional disponível para as empresas.
+            Podem ser contratados como trainee, JR ou estagiário.
           </div>
         </div>
 
         <div className="list-item">
-          <h2>2 - Mentorados = Estudante da rede pública</h2>
+          <h2>2 - Mentorados = Estudantes</h2>
           <div className="description">
             A escola forma equipes de alunos que cursam o ensino médio para
-            desenvolver o projeto junto aos universitários.
+            desenvolver um projeto junto aos universitários.
           </div>
           <div className="benefits">
-            VANTAGENS: Aprendem processos para se profissionalizar e podem
-            conseguir um emprego com o programa Jovem Aprendiz
+            VANTAGENS: Estimular a prática do conteúdo através dos projetos
+            mentorados, aprender processos para se profissionalizar e ganhar
+            dinheiro com os projetos aprovados. Podem ser contratados pelo
+            programa Jovem Aprendiz.
           </div>
         </div>
 
         <div className="list-item">
-          <h2>3 - Investidores = Empresas</h2>
+          <h2>3 - Orientadores = Professores</h2>
           <div className="description">
-            As empresas compram o projeto ou submetem seus projetos para serem
-            desenvolvidos pelos jovens universítarios e os estudantes das
-            escolas públicas
+            Orientam seus alunos, de ensino médio ou universitários, na
+            utilização da plataforma e submissão de projetos, relacionando com
+            os ensinamentos em sala de aula e estimulando a prática.
           </div>
           <div className="benefits">
-            VANTAGENS: Podem comprar os projetos que facilitem seu serviço,
-            podem contratar equipes para resolver projetos, podem achar bons
-            colaboradores e realizar um trabalho social
+            VANTAGENS: Conquistar mérito acadêmico com as orientações e ganhar
+            dinheiro com os projetos aprovados.
+          </div>
+        </div>
+
+        <div className="list-item">
+          <h2>4 - Investidores = Empresas</h2>
+          <div className="description">
+            As empresas podem investir nos projetos submetidos ou submeterem
+            outros para serem desenvolvidos pelos estudantes e mentores.
+          </div>
+          <div className="benefits">
+            VANTAGENS: Investir em projetos que auxiliem o seu negócio,
+            contratar equipes para desenvolver novos projetos, encontrar novos
+            talentos e incentivar um projeto social.
           </div>
         </div>
       </div>

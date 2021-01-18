@@ -32,20 +32,20 @@ export const getStaticProps = async () => {
   const projects: Project[] = [
     {
       logo: 'https://i.imgur.com/9pxbWwU.png',
-      title:
-        'DecoreUX — Design de Serviços na Arquitetura e Decoração de Ambientes',
-      field: 'Arquitetura',
-      solvedProblem: 'Propor nova arquitetura para a Universidade do ABC',
-      mentors: ['Matias da Silva Gomes - Universidade Federal do ABC'],
-      mentored: ['EE PS, Generoso Alves de Siqueira'],
+      title: 'Tconstruindo - Conecta profissionais da construção ',
+      field: 'Tecnologia',
+      solvedProblem:
+        'Ajuda a comunidade conectar profissionais da contrução civil',
+      mentors: ['Metodista - SP'],
+      mentored: ['EE PS, Cloves Bevilaque'],
       link: '/projects/0',
     },
     {
       logo: 'https://i.imgur.com/a7kmUdW.png',
-      title: 'Incenticida do Bem — Um incenticida não tóxico',
-      field: 'Quimica',
-      solvedProblem: 'Desenvolver um novo incenticida não tóxico',
-      mentors: ['Laura Freitas - Universidade Federal do CBA'],
+      title: 'Examesok - Gerenciador de exames para mulheres',
+      field: 'Tecnologia / Ciência / Saúde',
+      solvedProblem: 'Ajuda mulheres a manter sua rotina de exames em sia',
+      mentors: ['Universidade Federal do ABC - SP'],
       mentored: ['Ana Clara, Arthur Lima'],
       link: '/projects/1',
     },
